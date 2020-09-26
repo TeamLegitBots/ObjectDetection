@@ -19,7 +19,7 @@ public class OpencvTest {
         System.out.println("\nRunning DetectFaceDemo");
         // Create a face detector from the cascade file in the resources
         // directory.
-        CascadeClassifier faceDetector = new CascadeClassifier("C:\\tmp\\lbpcascade_frontalface.xml");
+        CascadeClassifier faceDetector = new CascadeClassifier("C:\\tmp\\lbpcascade_frontalface.xml"); //File names differ per person
         //Mat image = Imgcodecs.imread("C:\\tmp\\lena.png");
         Mat image = Imgcodecs.imread("C:\\tmp\\legit.jpg");
 
